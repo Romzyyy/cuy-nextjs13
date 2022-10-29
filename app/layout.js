@@ -1,7 +1,9 @@
 export default function RootLayout({ children }) {
   return (
     <html>
-      <head></head>
+      <head>
+      <title>Dea freeCourse main page</title>
+      </head>
       <body>{children}</body>
     </html>
   )

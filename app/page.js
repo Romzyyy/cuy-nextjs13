@@ -1,3 +1,3 @@
 export default function Page() {
-    return <h1>testing page</h1>
+    return <h1>Dea free course main page</h1>
   }
