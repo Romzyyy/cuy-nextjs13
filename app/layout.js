@@ -2,9 +2,17 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head>
-      <title>Dea freeCourse main page</title>
+        <title>Dea freeCourse main page</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <nav>
+          <a href="/">home</a>
+          <a href="/postingan">postingan</a>
+        </nav>
+        <div>
+          {children}
+        </div>
+      </body>
     </html>
-  )
+  );
 }
